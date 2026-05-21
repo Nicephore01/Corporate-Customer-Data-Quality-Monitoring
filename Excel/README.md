@@ -1,6 +1,10 @@
-# Excel Data Quality Checks
+# Excel Data Quality Assessment
 
-This section contains initial data quality controls performed in Excel.
+## Overview
+
+This section contains the initial data quality assessment performed in Excel before integrating the dataset into PostgreSQL and Power BI.
+
+---
 
 ## Quality Checks Performed
 
@@ -8,12 +12,6 @@ This section contains initial data quality controls performed in Excel.
 - Missing value analysis
 - Country standardization
 - Invalid email identification
----
-# Excel Data Quality Assessment
-
-## Overview
-
-This section contains the initial data quality assessment performed in Excel before integrating the dataset into PostgreSQL and Power BI.
 
 ---
 
