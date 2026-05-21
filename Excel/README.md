@@ -73,3 +73,11 @@ These inconsistencies can negatively impact:
 - DE → Germany
 - LU → Luxembourg
 - NL → Netherlands
+
+---
+
+## Date Validation
+
+A date quality check identified 21 invalid onboarding dates out of 520 records.
+
+These onboarding dates were set in the year 2035, which is inconsistent with the current business timeline and may indicate data entry or system integration issues.
