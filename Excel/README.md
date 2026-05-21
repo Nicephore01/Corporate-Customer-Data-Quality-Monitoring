@@ -38,3 +38,38 @@ Email quality checks were performed to identify missing and invalid customer ema
 - 39 invalid email formats
 
 These issues could negatively impact customer communication and reporting reliability.
+
+---
+
+## Country Standardization
+
+The country column contains multiple naming variations representing the same country.
+
+Examples:
+- France / FR / French Republic
+- Belgium / BE
+- Germany / DE
+- Luxembourg / LU
+- Netherlands / NL
+
+These inconsistencies can negatively impact:
+- reporting accuracy
+- customer segmentation
+- dashboard consistency
+- data governance processes
+
+### Initial Findings Before Standardization
+
+- Belgium: 95 records (BE = 49, Belgium = 46)
+- Germany: 102 records (DE = 49, Germany = 53)
+- France: 95 records (FR = 31, France = 26, French Republic = 38)
+- Luxembourg: 117 records (LU = 54, Luxembourg = 63)
+- Netherlands: 111 records (NL = 45, Netherlands = 66)
+
+### Standardization Rules Applied
+
+- FR and French Republic → France
+- BE → Belgium
+- DE → Germany
+- LU → Luxembourg
+- NL → Netherlands
