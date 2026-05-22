@@ -81,3 +81,27 @@ These inconsistencies can negatively impact:
 A date quality check identified 21 invalid onboarding dates out of 520 records.
 
 These onboarding dates were set in the year 2035, which is inconsistent with the current business timeline and may indicate data entry or system integration issues.
+
+---
+
+## Phone Number Validation
+
+Phone number quality checks were implemented to identify:
+
+- missing phone numbers
+- invalid phone numbers
+- inconsistent international formats
+- missing country codes
+- invalid characters
+- phone extensions
+
+### Findings
+
+The validation process identified several phone number inconsistencies across the dataset, including:
+
+- invalid phone numbers that were too short
+- phone numbers without international country codes
+- inconsistent separators such as dots (.)
+- phone extensions requiring standardization
+
+These issues may negatively impact customer communication, operational processes, and data consistency across reporting systems.
