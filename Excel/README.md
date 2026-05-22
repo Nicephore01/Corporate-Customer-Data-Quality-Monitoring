@@ -86,22 +86,14 @@ These onboarding dates were set in the year 2035, which is inconsistent with the
 
 ## Phone Number Validation
 
-Phone number quality checks were implemented to identify:
-
-- missing phone numbers
-- invalid phone numbers
-- inconsistent international formats
-- missing country codes
-- invalid characters
-- phone extensions
+Phone number quality checks were implemented to identify inconsistent international formats and invalid customer contact information.
 
 ### Findings
 
-The validation process identified several phone number inconsistencies across the dataset, including:
+- 235 phone numbers contained extensions requiring standardization
+- 89 phone numbers contained invalid characters
+- 27 invalid phone numbers were identified
+- 136 phone numbers were missing international country codes
+- 33 phone numbers were already compliant with valid international formatting
 
-- invalid phone numbers that were too short
-- phone numbers without international country codes
-- inconsistent separators such as dots (.)
-- phone extensions requiring standardization
-
-These issues may negatively impact customer communication, operational processes, and data consistency across reporting systems.
+These issues may negatively impact customer communication, operational workflows, and data consistency across reporting systems.
