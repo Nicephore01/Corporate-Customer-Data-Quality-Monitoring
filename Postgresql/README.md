@@ -19,7 +19,7 @@ The SQL workflow includes:
 
 The customer table was created using a structured PostgreSQL schema including customer master data and quality validation flags.
 
-![Table Creation](./sql-table-creation.png)
+![Table Creation](./sql-create-table.png)
 
 ---
 
