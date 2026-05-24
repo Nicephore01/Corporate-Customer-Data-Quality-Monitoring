@@ -19,7 +19,7 @@ The SQL workflow includes:
 
 The customer table was created using a structured PostgreSQL schema including customer master data and quality validation flags.
 
-![Table Creation](./sql-create-table.png)
+![Table Creation](./create-table.png)
 
 ---
 
@@ -58,7 +58,7 @@ Phone number quality checks identified:
 - phone extensions
 - inconsistent international formats
 
-![Phone Quality Summary](./sql-phone-quality-summary.png)
+![Phone Quality Summary](./Phone-Number-Quality-Summary.png)
 
 ---
 
