@@ -116,3 +116,14 @@ These issues may negatively impact customer communication, operational workflows
 ### Phone Number Validation
 
 ![Phone Validation](./phone-number-validation.png)
+
+---
+
+## Conclusion
+
+This first phase of the project made it possible to identify several data quality issues within the customer dataset.  
+Working directly in Excel helped highlight common problems that can affect reporting and daily operations, such as duplicate records, missing information, inconsistent country names, invalid emails, and non-standard phone numbers.
+
+The analysis also showed how small inconsistencies can quickly impact the reliability of dashboards and customer monitoring processes if no controls are put in place.
+
+Overall, this assessment provided a clearer view of the dataset quality and created a solid foundation for the next steps of the project, which will focus on SQL-based controls and Power BI monitoring.
