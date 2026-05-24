@@ -42,6 +42,10 @@ Email quality checks were performed to identify missing and invalid customer ema
 
 These issues could negatively impact customer communication and reporting reliability.
 
+### Email Quality Validation
+
+![Email Validation](./email-quality-validation.png)
+
 ---
 
 ## Country Standardization
@@ -77,6 +81,10 @@ These inconsistencies can negatively impact:
 - LU → Luxembourg
 - NL → Netherlands
 
+### Country Standardization
+
+![Country Standardization](./country-standardization.png)
+
 ---
 
 ## Date Validation
@@ -84,6 +92,10 @@ These inconsistencies can negatively impact:
 A date quality check identified 21 invalid onboarding dates out of 520 records.
 
 These onboarding dates were set in the year 2035, which is inconsistent with the current business timeline and may indicate data entry or system integration issues.
+
+### Onboarding Date Validation
+
+![Date Validation](./onboarding-date-validation.png)
 
 ---
 
@@ -100,3 +112,7 @@ Phone number quality checks were implemented to identify inconsistent internatio
 - 33 phone numbers were already compliant with valid international formatting
 
 These issues may negatively impact customer communication, operational workflows, and data consistency across reporting systems.
+
+### Phone Number Validation
+
+![Phone Validation](./phone-number-validation.png)
