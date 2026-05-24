@@ -25,6 +25,9 @@ A duplicate detection control was implemented using Excel formulas and condition
 
 These duplicates may impact reporting consistency and customer monitoring processes.
 
+### Duplicate Customer ID Detection
+
+![Duplicate Detection](./duplicate-customer-id-detection.png)
 ---
 
 ## Email Quality Validation
