@@ -27,7 +27,7 @@ The customer table was created using a structured PostgreSQL schema including cu
 
 SQL duplicate checks identified duplicated customer IDs within the dataset.
 
-![Duplicate Customer Detection](./sql-duplicate-customer-detection.png)
+![Duplicate Customer Detection](./Duplicate-Customer-ID-Detection-sql.png)
 
 ---
 
@@ -37,20 +37,7 @@ SQL validation queries were used to identify:
 - missing emails
 - invalid email formats
 
-![Email Validation](./sql-email-validation.png)
-
----
-
-## Country Standardization Checks
-
-Country values were analyzed to identify inconsistent naming conventions.
-
-Examples:
-- France / FR / French Republic
-- Germany / DE
-- Belgium / BE
-
-![Country Standardization](./sql-country-standardization.png)
+![Email Validation](./Invalid-or-Missing-Emails.png)
 
 ---
 
@@ -58,7 +45,7 @@ Examples:
 
 Date validation checks identified abnormal onboarding dates set in the future.
 
-![Date Validation](./sql-date-validation.png)
+![Phone Quality Summary](./Phone-Number-Quality-Summary.png)
 
 ---
 
