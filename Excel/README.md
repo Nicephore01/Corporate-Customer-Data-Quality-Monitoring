@@ -118,6 +118,22 @@ These issues may negatively impact customer communication, operational workflows
 ![Phone Validation](./phone-number-validation.png)
 
 ---
+## Data Quality Summary
+
+The analysis identified several data quality issues across the customer dataset.
+
+It is important to note that the figures below represent the total number of anomalies detected by column. A single customer record may contain multiple data quality issues.
+
+### Main Findings
+
+- 76 invalid or missing email addresses
+- 40 duplicate customer IDs
+- 319 country values requiring standardization
+- 30 missing VAT numbers
+- 508 phone number format inconsistencies
+- 21 abnormal onboarding dates
+
+---
 
 ## Conclusion
 
