@@ -111,6 +111,7 @@ The Power BI dashboard provides:
 - Customer distribution by country
 - Detailed anomaly reporting
 
+![Dashboard](PowerBI/Dashboard.png)
 ---
 
 ## Key Findings
