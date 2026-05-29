@@ -57,7 +57,7 @@ Result:
 
 ## Dashboard Preview
 
-
+![Dashboard](Dashboard.png)
 ---
 
 ## Key Insights
