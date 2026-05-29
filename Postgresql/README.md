@@ -45,7 +45,7 @@ SQL validation queries were used to identify:
 
 Date validation checks identified abnormal onboarding dates set in the future.
 
-![Phone Quality Summary](./Phone-Number-Quality-Summary.png)
+![Phone Quality Summary](./Future-Onboarding-Dates.png)
 
 ---
 
