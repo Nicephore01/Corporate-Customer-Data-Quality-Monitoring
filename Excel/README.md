@@ -21,7 +21,7 @@ A duplicate detection control was implemented using Excel formulas and condition
 
 ### Findings
 
-- 40 duplicate customer records identified
+- 20 duplicate customer records identified
 
 These duplicates may impact reporting consistency and customer monitoring processes.
 
@@ -127,7 +127,7 @@ It is important to note that the figures below represent the total number of ano
 ### Main Findings
 
 - 76 invalid or missing email addresses
-- 40 duplicate customer IDs
+- 20 duplicate customer IDs
 - 319 country values requiring standardization
 - 30 missing VAT numbers
 - 508 phone number format inconsistencies
